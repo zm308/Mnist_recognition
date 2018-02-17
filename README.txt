@@ -1,0 +1,4 @@
+unpack.py对Mnist数据解压,并将所有图片保存到本地
+MakeTrainTFRecord.py和MakeTestTFRecord.py将本地保存的数据制作成训练和测试样本集，tfrecord格式。
+TFRecord_read.py读取tfrecord数据集
+MnistPro.py为主程序，Mnist数据集识别
